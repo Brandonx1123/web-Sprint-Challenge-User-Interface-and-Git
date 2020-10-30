@@ -100,6 +100,15 @@ nav a{
     width: 100%;
 }
 
+.middle-pics{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.stratpic, .workpic, .placespic, .collabpic{
+    width: 40%;
+}
+
 
 
 
