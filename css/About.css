@@ -90,7 +90,14 @@ nav a{
 }
 
 .buildingpic {
-    
+    width: 100%;
+}
+
+.top-text{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    font-size: 1remrem;
+    width: 100%;
 }
 
 
