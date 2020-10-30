@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
     max-width: 100%;
     border: solid lightgrey;
+    font-weight: bold;
 }
 
 html, body {
@@ -73,20 +74,23 @@ p {
     margin: 0 auto;
 }
 
-nav{
+.topnav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0% auto;
+    align-items: flex-end;
+    margin: 3%% auto;
 }
 
+
 nav a{
-    display: flex;
-    text-align: center;
+    width: 10%;
+    /* display: flex;
+    text-align: center; */
     color: black;
     text-decoration: none;
     font-size: .9rem;
-    margin: 0 auto;
+    margin: 0 3%;
+    font-weight: bold;
 }
 
 
@@ -147,20 +151,24 @@ nav a{
 }
 
 footer {
+    /* display:flex;
+    justify-content:left; */
     width: 100%;
     background: black;
 }
 
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content:flex-start; */
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
-    color: white;
+   color: white;
     text-decoration: none;
+    text-align:center;
 }
